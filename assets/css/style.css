@@ -85,6 +85,20 @@ a:hover {
     bottom: zero;
 }
 
+.footi {
+    float: left;
+    text-align: center;
+    background-color: darkgray;
+    height: 50px;
+    width: 1200px;
+    border-top: 7px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 650px;
+    bottom: zero;
+}
+
 img {
     float: left;
 }
@@ -147,4 +161,106 @@ h3 {
     background-color: #ffffff;
     border: 2px solid lightgray;
 }
+
+
+@media (max-width: 1100px) {
+    .nav {
+        float: left;
+        padding-top: 30px;
+        text-align: justify;
+    }
+    .about {
+        margin-left: 7%;
+        width: 60%;
+        margin-bottom: 2%;
+        padding-right: 12%;
+        background-color: aquamarine;
+    }
+    .pt1 {
+        margin-left: 5%;
+        width: 70%;
+        margin-bottom:2%;
+    }
+    .pt3 {
+        width: 35%;
+        margin-left: 20%;
+        padding: 2.5%;
+    }
+    .foot {
+        width: 70%;
+        margin-top: 15%;
+    }
+    .pt5 {
+        width: 70%;
+        margin-bottom: 2%;
+    }
+    .foot1 {
+        width: 90%;
+        bottom: zero;
+    
+    }
+    .para {
+        font-size: .75rem;
+    }
+    .para2 {
+        font-size: .75rem;
+        text-overflow: clip;
+    }
+}
+
+@media (max-width: 750px) {
+    .body {
+        width: 250%;
+        background-color: pink;
+    }
+    .nav {
+        float: left;
+        padding-top: 10px;
+        text-align: justify;
+    } 
+    header {
+        width: 50%;
+        font-size: .3rem;
+    }
+    .about {
+        width: 40%;
+
+    }
+
+    .para {
+        font-size: .5rem;
+    }
+    .para2 {
+        font-size: .5rem;
+        word-wrap: break-word;
+        margin: auto;
+
+    }
+    h1 {
+        font-size: .3rem;
+    }
+
+    .foot1 {
+        width: 50%;
+        bottom: zero;
+    }
+    .pt1 {
+        margin-left: 5%;
+        width: 70%;
+        margin-bottom:2%;
+    }
+    .pt3 {
+        width: 35%;
+        margin-left: 20%;
+        padding: 2.5%;
+    }
+    footi {
+    width: 100%;
+    margin-right: 50%;
+    }
+    .pt4 {
+        width: 85%;
+        padding-right: 2px;
+    }
+
 }
