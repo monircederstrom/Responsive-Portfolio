@@ -177,7 +177,6 @@ h3 {
         width: 60%;
         margin-bottom: 2%;
         padding-right: 12%;
-        background-color: aquamarine;
     }
     .pt1 {
         margin-left: 5%;
@@ -190,79 +189,87 @@ h3 {
         padding: 2.5%;
     }
     .foot {
-        width: 70%;
-        margin-top: 15%;
+        width: 100%;
     }
     .pt5 {
         width: 70%;
         margin-bottom: 2%;
     }
-    .foot1 {
-        width: 90%;
+    .footi {
+        width: 100%;
         bottom: zero;
-    
+        height: 20%;
     }
     .para {
         font-size: .75rem;
+        width: 100%;
     }
     .para2 {
         font-size: .75rem;
-        text-overflow: clip;
+        overflow-wrap: normal;
+        width: 100%;
+        
     }
 }
 
 @media (max-width: 768px) {
     .body {
-        width: 250%;
-        background-color: pink;
+        width: 200%;
+        padding-right: 5%;
+        font-size: 1.5rem
     }
     .nav {
-        float: left;
-        padding-top: 10px;
+        padding-top: 5;
+        padding-left: 15%;
         text-align: justify;
     } 
     header {
-        width: 50%;
+        width: 100%;
         font-size: .3rem;
     }
     .about {
-        width: 40%;
+        width: 25%;
 
     }
 
     .para {
         font-size: .5rem;
+        width: 100%;
     }
     .para2 {
         font-size: .5rem;
         word-wrap: break-word;
         margin: auto;
-
+        width: 100%;
     }
     h1 {
         font-size: .3rem;
     }
-
+    .foot {
+        bottom: 0;
+        margin-top: 45%;
+    }
     .foot1 {
         width: 50%;
-        bottom: zero;
+        margin-top: 45%;
     }
     .pt1 {
         margin-left: 5%;
-        width: 70%;
+        width: 100%;
         margin-bottom:2%;
     }
     .pt3 {
-        width: 35%;
+        width: 25%;
         margin-left: 20%;
         padding: 2.5%;
     }
     footi {
-    width: 100%;
-    margin-right: 50%;
+    width: 10%;
+    margin-top: 7%;
+    bottom: 0;
     }
     .pt4 {
-        width: 85%;
+        width: 100%;
         padding-right: 2px;
     }
     header {
@@ -273,8 +280,29 @@ h3 {
 @media (max-width: 640px) {
     header {
         position: static;
+        width: 100%;
     }
     .body {
-        background-color: lightskyblue;
+        width: 100%;
+    }
+    .photo {
+        width: 95%;
+        height: 95%;
+    }
+    .para {
+        font-size: .5rem;
+        width: 100%;
+    }
+    .para2 {
+        font-size: .5rem;
+        word-wrap: break-word;
+        margin: auto;
+        width: 100%;
+    }
+    .pt3 {
+        margin-right: 3%;
+    }
+    .pt4 {
+        width: 90%;
     }
 }
