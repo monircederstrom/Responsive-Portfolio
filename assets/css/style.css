@@ -1,0 +1,150 @@
+header {
+    height: 110px;
+    border-bottom: 3px solid lightgray;
+    background-color: white;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    width: 250px;
+    float: left;
+    margin-left: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.body {
+    float: left;
+    border bottom: 5px solid #4aaaa5;
+    background-image: url(assets/images/dust.png);
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+.nav {
+    float: right;
+    margin-right: 185;
+    color: gray;
+    height: 100px;
+    text-align: center;
+    padding-top: 45px;
+}
+
+a {
+    color: gray;
+    text-decoration-line: none;
+    margin: 7px;
+}
+
+a:hover {
+    color: purple;
+}
+
+.pt1 {
+    float:left;
+    text-align: left;
+    width: 960px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.about {
+    float:left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    height: 350px;
+    width: 650px;
+    background-color: #ffffff;
+    border: 2px solid lightgray;
+}
+
+.pt3 {
+    float: left;
+    width: 200px;
+    background: white;
+    margin-left: 20px;
+    border: 2px solid lightgray;
+}
+
+.foot {
+    float: left;
+    text-align: center;
+    background-color: darkgray;
+    height: 50px;
+    width: 1200px;
+    border-top: 7px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 650px;
+    bottom: zero;
+}
+
+img {
+    float: left;
+}
+
+.photo {
+    float:left;
+}
+
+.para {
+    float:left;
+}
+
+.p4 {
+    text-align: left;
+    line-height: 30px;
+    clear: left;
+}
+
+h2 {
+   color: #4aaaa5;
+   font-size: 100;
+   font-family: Georgia, Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 20;
+    text-align: center;
+}
+
+.para {
+    width: 300px;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.para2 {
+    width: 560px;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.link {
+    float: left;
+}
+
+.pt5 {
+    float:left;
+    text-align: left;
+    width: 650px;
+    height: 100%;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid lightgray;
+}
+}
