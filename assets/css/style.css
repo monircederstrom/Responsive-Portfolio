@@ -280,7 +280,7 @@ h3 {
 @media (max-width: 640px) {
     header {
         position: static;
-        width: 100%;
+    
     }
     .body {
         width: 100%;
@@ -305,4 +305,11 @@ h3 {
     .pt4 {
         width: 90%;
     }
+    .pt1 {
+        width: 100%;
+    }
+    foot {
+        margin-top: 20%;
+    }
+    
 }
